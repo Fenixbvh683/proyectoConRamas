@@ -8,7 +8,7 @@ let respuesta;
 
 switch (comando) {
   case "listar":
-  
+    moduloProductos.listar();
     break;
   case "agregar":
     let nombre = argv[3];
